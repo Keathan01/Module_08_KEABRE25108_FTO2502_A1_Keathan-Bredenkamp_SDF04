@@ -1,0 +1,31 @@
+footer
+{ background-color:rgb(93, 151, 122);
+    font-style: Arial, Helvetica, sans-serif;
+    padding-left:150px ;
+    padding-right:150px;
+    padding-top:40px ;
+    padding-bottom: 40px;
+}
+h2{
+    font-weight: normal;
+   
+}
+button{
+ background-color: orangered;
+ color: white;
+ border: 5px solid orangered;
+ border-radius: 5px;
+ width: 100px;
+ font-weight: bold;
+ 
+}
+#Email{
+    border-radius: 5px;
+    border: 5px solid white;
+}
+li{
+    list-style: none;
+}
+hr{
+   border: 1px solid orangered;
+}
