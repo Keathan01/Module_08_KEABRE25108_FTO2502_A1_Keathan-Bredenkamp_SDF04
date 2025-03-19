@@ -44,17 +44,4 @@ a{
   color: inherit;
  text-decoration: none;
 }
-form{
-  display:flex ;
-  flex-direction: row;
-  gap:10px;
-}
-
-
-ul{
-  display: flex;
-  flex-direction: row;
-  gap: 50px;
-  justify-content: center;
-}
 
