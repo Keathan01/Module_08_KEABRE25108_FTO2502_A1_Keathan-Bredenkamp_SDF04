@@ -8,6 +8,7 @@ footer{
 }
 h2{
   font-weight: normal;
+  font-style: normal;
 }
 button{
 background-color: orangered;
@@ -28,6 +29,7 @@ font-size: 12px;
 li{
   list-style: none;
   font-weight: normal;
+ 
 }
 
 
@@ -39,9 +41,5 @@ img{
 
 }
 
-a{
-  list-style: none;
-  color: inherit;
- text-decoration: none;
-}
+
 
