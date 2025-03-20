@@ -11,6 +11,7 @@ footer{
 h2{
   font-weight: normal;
   font-style: normal;
+  font-size: 20px;
 }
 button{
 background-color: orangered;
@@ -40,6 +41,7 @@ img{
 li{
   list-style: none;
   text-align: justify;
+  margin-bottom: 10px;
 }
 a{
   font-weight: normal;
@@ -50,7 +52,9 @@ a{
 
 .container{
   display:grid;
-  grid-template-columns: auto auto auto ;
+  grid-template-columns: repeat(3,auto);
+  align-content: space-evenly;
+  gap: 100px;
 
 
 }
@@ -58,4 +62,5 @@ a{
   display: flex;
   flex-direction:row;
   flex-wrap: wrap;
+  gap: 120px;
 }
