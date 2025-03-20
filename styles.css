@@ -1,11 +1,13 @@
 footer{ 
   background-color:rgb(93, 151, 122);
-  font-style: Arial,sans-serif;
+  font-family: Arial,sans-serif;
   padding-left:150px ;
   padding-right:150px;
   padding-top:40px ;
   padding-bottom: 40px;
 }
+
+
 h2{
   font-weight: normal;
   font-style: normal;
@@ -24,14 +26,9 @@ font-size: 12px;
   border-radius: 5px;
   border: 5px solid white;
 }
-
-
-li{
-  list-style: none;
-  font-weight: normal;
- 
+h4{
+ margin-left: 35px;
 }
-
 
 hr{
  border: 1px solid orangered;
@@ -40,6 +37,25 @@ img{
   width: 150px;
 
 }
+li{
+  list-style: none;
+  text-align: justify;
+}
+a{
+  font-weight: normal;
+  text-decoration: none;
+  color: inherit;
+
+}
+
+.container{
+  display:grid;
+  grid-template-columns: auto auto auto ;
 
 
-
+}
+.list{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
