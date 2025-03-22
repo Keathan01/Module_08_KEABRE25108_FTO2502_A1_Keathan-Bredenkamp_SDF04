@@ -53,8 +53,8 @@ a{
 
 .container{
   display:grid;
-  grid-template-columns: auto auto auto;
-  align-content: space-evenly;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
   gap: 100px;
 
 
@@ -62,7 +62,7 @@ a{
 .list{
   display: flex;
 gap: 150px;
-  align-content: space-evenly;
+ 
 }
 @media  screen and (max-width:768px){
   footer{
@@ -81,16 +81,19 @@ background-color:rgb(93, 151, 122);
 .list{
   display: flex;
   flex-wrap: wrap;
+  gap:0px;
+  
 }
 form{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap:20px
+  gap:20px;
 
 }
 button{
   width: 100px;
+  display: block;
 }
 .ft{
   padding-left: 30px;
@@ -104,5 +107,17 @@ button{
 h2{
   font-size: 17px;
 }
+.tech{
+  margin: 0 auto;
+   text-align: center;
+}
 }
 
+@media screen and (max-width:375px){
+.list{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+}
