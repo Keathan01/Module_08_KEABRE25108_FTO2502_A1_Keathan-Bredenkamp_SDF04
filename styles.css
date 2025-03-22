@@ -55,7 +55,7 @@ a{
   display:grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 
-  gap: 100px;
+  gap: 50px;
 
 
 }
@@ -81,14 +81,14 @@ background-color:rgb(93, 151, 122);
 .list{
   display: flex;
   flex-wrap: wrap;
-  gap:0px;
+  gap:20px;
   
 }
 form{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap:20px;
+  gap:10px;
 
 }
 button{
@@ -107,10 +107,10 @@ button{
 h2{
   font-size: 17px;
 }
-.tech{
-  margin: 0 auto;
-   text-align: center;
+input{
+  width: 150px;
 }
+
 }
 
 @media screen and (max-width:375px){
@@ -119,5 +119,10 @@ h2{
   flex-direction: column;
   align-content: flex-start;
 }
-
+button{
+  width: 100%;
+}
+input{
+  width: 100%;
+}
 }
