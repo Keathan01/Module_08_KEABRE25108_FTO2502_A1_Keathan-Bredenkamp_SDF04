@@ -32,7 +32,7 @@ h4{
 }
 
 hr{
- border: 1px solid orangered;
+ border: .5px solid orangered;
 }
 img{
   width: 150px;
@@ -63,4 +63,41 @@ a{
   flex-direction:row;
   flex-wrap: wrap;
   gap: 120px;
+}
+@media  screen and (max-width:768px) {
+  footer{
+    padding-left: 30px;
+padding-right: 30px;
+padding-top: 50px;
+padding-bottom: 50px;
+margin: 0px;
+background-color:rgb(93, 151, 122);;
+  }
+  .container{
+    display: block;
+  }
+.list{
+  display: flex;
+}
+form{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap:10px
+}
+.links{
+  padding-right: 20px;
+
+}
+.form-container{
+  padding-left: 30px;
+
+}
+
+button{
+  width:100px;
+}
+h2{
+  font-size: 17px;
+}
 }
