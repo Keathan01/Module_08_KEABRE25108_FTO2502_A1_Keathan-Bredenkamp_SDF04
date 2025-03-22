@@ -71,7 +71,8 @@ padding-right: 30px;
 padding-top: 50px;
 padding-bottom: 50px;
 margin: 0px;
-background-color:rgb(93, 151, 122);;
+background-color:rgb(93, 151, 122);
+
   }
   .container{
     display: block;
@@ -83,7 +84,7 @@ form{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap:10px
+  gap:20px
 }
 .links{
   padding-right: 20px;
@@ -94,9 +95,6 @@ form{
 
 }
 
-button{
-  width:100px;
-}
 h2{
   font-size: 17px;
 }
