@@ -6,6 +6,10 @@ footer{
   padding-top:40px ;
   padding-bottom: 40px;
 }
+form{
+  display: flex;
+  gap:20px;
+}
 
 
 h2{
@@ -61,7 +65,7 @@ a{
 }
 .list{
   display: flex;
-gap: 150px;
+gap: 160px;
  
 }
 @media  screen and (max-width:768px){
@@ -74,6 +78,7 @@ margin: 0px;
 background-color:rgb(93, 151, 122);
 
   }
+ 
   .container{
     display: block;
     
@@ -81,7 +86,8 @@ background-color:rgb(93, 151, 122);
 .list{
   display: flex;
   flex-wrap: wrap;
-  gap:20px;
+  gap:135px;
+  align-content: space-evenly;
   
 }
 form{
@@ -94,6 +100,9 @@ form{
 button{
   width: 100px;
   display: block;
+  font-size: 15px;
+  
+
 }
 .ft{
   padding-left: 30px;
@@ -108,7 +117,7 @@ h2{
   font-size: 17px;
 }
 input{
-  width: 150px;
+  width: 170px;
 }
 
 }
@@ -118,9 +127,11 @@ input{
   display: flex;
   flex-direction: column;
   align-content: flex-start;
+  gap: 0px;
 }
 button{
   width: 100%;
+  padding: none;
 }
 input{
   width: 100%;
